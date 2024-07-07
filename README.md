@@ -1,7 +1,7 @@
-# Khime
+# ~jamais vu~
 
 
-## Liarsoft~
+## Liarsoft
 
 ## 项目简介
 腐姬归省的汉化+移植（但是很烂）   
