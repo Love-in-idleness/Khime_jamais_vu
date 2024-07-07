@@ -790,6 +790,17 @@ screen preferences():
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
+                                    ## Additional vboxes of type "radio_pref" or "check_pref" can be
+                ## added here, to add additional creator-defined preferences.
+
+                vbox:
+                    style_prefix "radio"
+                    label "语言"
+                    textbutton "简体中文" text_font "SourceHanSansLite.ttf" action Language(None)
+                    textbutton "日本語" text_font "SourceHanSansLite.ttf" action Language("jp")
+
+ 
+
 
 style pref_label is gui_label
 style pref_label_text is gui_label_text

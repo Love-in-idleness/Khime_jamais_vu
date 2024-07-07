@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 3263: expected 'simple_expression' not found.
-    show t3 with
-                ^
+File "game/screens.rpy", line 1592: expected 'label_name_declare' not found.
+    label "语言"
+         ^
+
+File "game/screens.rpy", line 1595: end of line expected.
+    textbutton "简体中文" text_font "SourceHanSansHWSC-Regular.otf" action Language(None)
+                      ^
+
+File "game/screens.rpy", line 1596: end of line expected.
+    textbutton "日本語" text_font "msmincho_0.ttc" action Language("jp")
+                     ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Thu Jul  4 08:45:54 2024
+Sun Jul  7 20:32:04 2024
