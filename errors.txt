@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 3263: expected 'simple_expression' not found.
+    show t3 with
+                ^
+
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Thu Jul  4 08:45:54 2024

@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "game/script.rpy", line 73, in <module>
+    bold true
+NameError: name 'true' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/opt/apps/renpy/renpy/bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "/opt/apps/renpy/renpy/main.py", line 637, in main
+    run(restart)
+  File "/opt/apps/renpy/renpy/main.py", line 75, in run
+    renpy.translation.init_translation()
+  File "/opt/apps/renpy/renpy/translation/__init__.py", line 664, in init_translation
+    renpy.store._init_language() # type: ignore
+  File "renpy/common/00start.rpy", line 83, in _init_language
+    renpy.change_language(language)
+  File "/opt/apps/renpy/renpy/translation/__init__.py", line 758, in change_language
+    new_change_language(tl, language)
+  File "/opt/apps/renpy/renpy/translation/__init__.py", line 710, in new_change_language
+    i.apply()
+  File "/opt/apps/renpy/renpy/ast.py", line 2787, in apply
+    value = renpy.python.py_eval(expr)
+  File "/opt/apps/renpy/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/opt/apps/renpy/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 73, in <module>
+    bold true
+NameError: name 'true' is not defined
+
+Linux-6.8.0-36-generic-x86_64-with-glibc2.39 x86_64
+Ren'Py 8.2.3.24061702
+Khime_jamais_vu 1.0
+Tue Jul  2 09:04:28 2024
