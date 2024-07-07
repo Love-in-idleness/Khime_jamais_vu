@@ -139,7 +139,7 @@ define config.save_directory = "Khime_jamais_vu-1713963293"
 ##
 ## 在任务栏或 Dock 上显示的图标。
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/khime.png"
 
 
 ## 构建配置 ########################################################################
