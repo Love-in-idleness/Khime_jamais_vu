@@ -1,4 +1,4 @@
-2024-07-07 12:41:27 UTC
+2024-07-08 04:58:38 UTC
 Linux-6.8.0-36-generic-x86_64-with-glibc2.39
 Ren'Py 8.2.3.24061702
 
@@ -16,11 +16,11 @@ Backing up script files to '/home/idleness/.renpy/backups/Khime_jamais_vu':
 Dump and make backups took 0.02s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.03s
+Initial gc took 0.02s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
@@ -28,16 +28,3 @@ Save screen analysis took 0.01s
 Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1200)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'AMD'"
-Renderer: b'AMD Radeon 780M (radeonsi, gfx1103_r1, LLVM 17.0.6, DRM 3.57, 6.8.0-36-generic)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.0.9-0ubuntu2'
-Display Info: None
-Screen sizes: virtual=(1920, 1440) physical=(1464, 1098) drawable=(1464, 1098)
-Maximum texture size: 4096x4096

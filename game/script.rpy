@@ -250,7 +250,7 @@ label start:
 
     stop sound fadeout 1
 
-    play music "Taz - 湿原.mp3" fadein 1.0
+    play music "t07.mp3" fadein 1.0
     "我抱着胳膊，面朝天花板，\n使僵硬的身体放松。"
 
     "不久，列车抵达了站台。\n并没有车内的广播声，取而代之的是一如既往的寂静。"
@@ -449,7 +449,7 @@ label start:
 
 
     pause(1)
-    play music "椎名治美 - 翠の森.mp3" fadein 1.0
+    play music "t01.mp3" fadein 1.0
     scene bg 0702 with fade
     show z1046
     show z9001
@@ -731,7 +731,7 @@ label start:
 
     "我又一次喝了小口咖啡，\n这时，\n我注意到了与我拼桌的男性的视线"
 
-    play music "椎名治美 - 濡れた窓辺.mp3" fadein 1
+    play music "t03.mp3" fadein 1
 
     "当我被吸引而转过头后，\n他行了一礼，\n说出了出乎我意料的话语"
 
@@ -941,7 +941,7 @@ label start:
     with Fade(1.0, 1.0, 1.0)
     show z9016
     show z9017
-    play music "Taz - とうかんもり.mp3" fadein 1
+    play music "t09.mp3" fadein 1
     play remusic "0603.mp3" fadein 1
 
     "报废的铁路线在青草堆中延续"
@@ -1477,7 +1477,7 @@ label start:
 
     r "…………"
 
-    play music "椎名治美 - 夢のきざはし.mp3" fadeout 1.0
+    play music "t02.mp3" fadeout 1.0
     r "…………树里……？"
 
     play sound "0607.mp3" fadeout 1.0
@@ -1643,7 +1643,7 @@ label start:
 
     n "那~~个"
 
-    play music "長崎繁,九十九百太郎 - イージィゴーイング.mp3" fadein 1.0
+    play music "t10.mp3" fadein 1.0
 
     show n 5301
     with Dissolve(0.5)
@@ -1732,7 +1732,7 @@ label start:
 
 
     scene bg 0702 with fade
-    play music "椎名治美 - 雨の午後の犬.mp3" fadein 1
+    play music "t05.mp3" fadein 1
 
     "芳野阿姨、润、树里，\n三位女性同时站在厨房的情景相当引人注目"
 
@@ -1990,7 +1990,7 @@ label start:
 
     "芳野阿姨立刻站了起来"
 
-    play music "Taz - 湿原.mp3" fadein 1
+    play music "t07.mp3" fadein 1
 
     "她摆出了与和谐空气不相称的僵硬表情"
 
@@ -2090,7 +2090,7 @@ label start:
 
     "坐在椅子上，闻到了从简易木质地板的房间那传来的香烟气味"
 
-    play music "椎名治美 - 濡れた窓辺.mp3" fadein 1
+    play music "t03.mp3" fadein 1
 
     "这不是那么令人讨厌的气味"
 
@@ -2431,7 +2431,7 @@ label start:
     r "……诶？…………"
 
     hide z9023 with dissolve
-    play music "Taz - 愛慾に光る.mp3" fadein 1
+    play music "t06.mp3" fadein 1
 
     "把不知所措的润放在一边，\n树里轻快地走向前去，\n和黑暗融为一体"
 
@@ -2808,7 +2808,7 @@ label start:
 
     "「青……」"
 
-    play music "Taz - たそがれ月.mp3" fadein 1
+    play music "t08.mp3" fadein 1
 
     g "是五树吗……？"
 
@@ -3138,7 +3138,7 @@ label start:
 
 
 
-    play music "椎名治美 - 樹里のテェマ.mp3" fadeout 3
+    play music "t04.mp3" fadeout 3
 
 
 
