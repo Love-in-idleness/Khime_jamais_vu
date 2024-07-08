@@ -1,0 +1,24 @@
+{
+    "expansion": false,
+    "google_play_key": null,
+    "google_play_salt": null,
+    "heap_size": "1",
+    "icon_name": "\u8150\u59ec-\u5f52\u7701",
+    "include_pil": false,
+    "include_sqlite": false,
+    "layout": null,
+    "name": "\u8150\u59ec-\u5f52\u7701",
+    "numeric_version": 1,
+    "orientation": "sensorLandscape",
+    "package": "com.khime.jamais.vu",
+    "permissions": [
+        "VIBRATE",
+        "INTERNET"
+    ],
+    "source": false,
+    "store": "none",
+    "update_always": true,
+    "update_icons": true,
+    "update_keystores": true,
+    "version": "1.0"
+}
