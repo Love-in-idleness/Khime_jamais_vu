@@ -1,69 +1,49 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 211, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 388, in script
-    $ __gl_test()
-  File "renpy/common/00start.rpy", line 211, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 388, in script
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 388, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 340, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
-Exception: Could not load image 'gui/window.ico': error('Error reading from ICO')
+  File "game/script.rpy", line 2893, in script
+    g "……………"
+OSError: Couldn't find file 'Taz - たそがれ月.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "/opt/apps/renpy/renpy/bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "/opt/apps/renpy/renpy/main.py", line 637, in main
-    run(restart)
-  File "/opt/apps/renpy/renpy/main.py", line 145, in run
-    renpy.execution.run_context(True)
-  File "/opt/apps/renpy/renpy/execution.py", line 955, in run_context
-    context.run()
-  File "renpy/common/00start.rpy", line 211, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 388, in script
-    $ __gl_test()
-  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
-  File "renpy/common/00start.rpy", line 211, in script call
-    call _gl_test
-  File "renpy/common/00gltest.rpy", line 388, in script
-    $ __gl_test()
-  File "/opt/apps/renpy/renpy/ast.py", line 823, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/opt/apps/renpy/renpy/python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00gltest.rpy", line 388, in <module>
-    $ __gl_test()
-  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
-    _gl_performance_test()
-  File "renpy/common/00gltest.rpy", line 340, in _gl_performance_test
-    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "game/script.rpy", line 2893, in script
+    g "……………"
+  File "/opt/apps/renpy/renpy/ast.py", line 2560, in execute
+    Say.execute(self)
+  File "/opt/apps/renpy/renpy/ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/opt/apps/renpy/renpy/exports.py", line 1494, in say
+    who(what, *args, **kwargs)
+  File "/opt/apps/renpy/renpy/character.py", line 1394, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/opt/apps/renpy/renpy/character.py", line 1045, in do_display
+    display_say(who,
+  File "/opt/apps/renpy/renpy/character.py", line 741, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "/opt/apps/renpy/renpy/ui.py", line 301, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/opt/apps/renpy/renpy/display/core.py", line 2123, in interact
-    self.start()
-  File "/opt/apps/renpy/renpy/display/core.py", line 983, in start
-    self.post_init()
-  File "/opt/apps/renpy/renpy/display/core.py", line 1080, in post_init
-    self.set_icon()
-  File "/opt/apps/renpy/renpy/display/core.py", line 1125, in set_icon
-    im = renpy.display.scale.image_load_unscaled(
-  File "/opt/apps/renpy/renpy/display/scale.py", line 67, in image_load_unscaled
-    rv = pgrender.load_image_unscaled(f, hint)
-  File "/opt/apps/renpy/renpy/display/pgrender.py", line 201, in load_image
-    raise Exception("Could not load image {!r}{}: {!r}".format(filename, extra, e))
-Exception: Could not load image 'gui/window.ico': error('Error reading from ICO')
+  File "/opt/apps/renpy/renpy/display/core.py", line 2166, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/opt/apps/renpy/renpy/display/core.py", line 3026, in interact_core
+    renpy.audio.audio.periodic()
+  File "/opt/apps/renpy/renpy/audio/audio.py", line 1199, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "/opt/apps/renpy/renpy/audio/audio.py", line 1177, in periodic_thread_main
+    periodic_pass()
+  File "/opt/apps/renpy/renpy/audio/audio.py", line 1119, in periodic_pass
+    c.periodic()
+  File "/opt/apps/renpy/renpy/audio/audio.py", line 528, in periodic
+    topf = load(filename)
+  File "/opt/apps/renpy/renpy/audio/audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "/opt/apps/renpy/renpy/loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'Taz - たそがれ月.mp3'.
 
-Linux-6.8.0-36-generic-x86_64-with-glibc2.39 x86_64
+Linux-6.9.11-x64v4-xanmod1-x86_64-with-glibc2.39 x86_64
 Ren'Py 8.2.3.24061702
-Khime_jamais_vu 1.0.1
-Sun Jul  7 19:53:48 2024
+Khime_jamais_vu 1.0.2
+Tue Jul 30 13:01:48 2024

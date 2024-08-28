@@ -1,19 +1,18 @@
-2024-07-08 06:44:18 UTC
-Linux-6.8.0-36-generic-x86_64-with-glibc2.39
+2024-08-15 09:54:45 UTC
+Linux-6.10.5-x64v4-xanmod1-x86_64-with-glibc2.39
 Ren'Py 8.2.3.24061702
 
-Early init took 0.03s
-Loading error handling took 0.07s
-Loading script took 0.92s
-Loading save slot metadata took 0.01s
+Early init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.07s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
-Backing up script files to '/home/idleness/.renpy/backups/Khime_jamais_vu':
-Dump and make backups took 0.02s
+Dump and make backups took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.03s
@@ -22,9 +21,22 @@ Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1200)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon 780M (radeonsi, gfx1103_r1, LLVM 17.0.6, DRM 3.57, 6.10.5-x64v4-xanmod1)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.9-0ubuntu2'
+Display Info: None
+Screen sizes: virtual=(1920, 1440) physical=(1464, 1098) drawable=(1464, 1098)
+Maximum texture size: 4096x4096
