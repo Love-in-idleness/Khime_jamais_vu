@@ -1,7 +1,4 @@
-# jamais vu
-
-
-## Liarsoft
+# Kusarihime ~jamais vu~
 
 ## 项目简介
 腐姬归省的汉化+移植（各种意义上都很烂）   
