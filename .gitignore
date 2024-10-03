@@ -4,3 +4,4 @@ traceback.txt
 *.rpymc
 /game/saves/
 /game/cache/
+/.vscode/
