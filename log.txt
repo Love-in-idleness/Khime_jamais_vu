@@ -1,42 +1,42 @@
-2024-08-15 09:54:45 UTC
-Linux-6.10.5-x64v4-xanmod1-x86_64-with-glibc2.39
-Ren'Py 8.2.3.24061702
+2024-10-03 11:23:37 UTC
+Linux-6.11.0-8-generic-x86_64-with-glibc2.40
+Ren'Py 8.3.2.24090902
 
 Early init took 0.04s
-Loading error handling took 0.02s
+Loading error handling took 0.03s
 Loading script took 0.07s
-Loading save slot metadata took 0.03s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.02s
+Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
+Reloading save slot metadata took 0.01s
 Index archives took 0.00s
 Dump and make backups took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.03s
+Initial gc took 0.04s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.03s
+Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
-Interface start took 0.13s
+Interface start took 0.26s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1200)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'AMD'"
-Renderer: b'AMD Radeon 780M (radeonsi, gfx1103_r1, LLVM 17.0.6, DRM 3.57, 6.10.5-x64v4-xanmod1)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.0.9-0ubuntu2'
+Renderer: b'AMD Radeon 780M (radeonsi, gfx1103_r1, LLVM 19.1.0, DRM 3.58, 6.11.0-8-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.2.3-1ubuntu1'
 Display Info: None
 Screen sizes: virtual=(1920, 1440) physical=(1464, 1098) drawable=(1464, 1098)
 Maximum texture size: 4096x4096
